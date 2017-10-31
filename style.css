@@ -1,36 +1,81 @@
 
-body  { 
-	margin: 0px;
-	background-color: #ffffff;
-	font-family: tahoma, sans-serif;
+body { 
+  margin: 0px;
+  background-color: #ffffff;
+  font-family: tahoma, sans-serif;
 }
 
-#top  {
-	background-color :  #2d2578;
-	color:white;
-	padding: 3px 270px 15px;
-	border: 0px;
-	margin: 0px;
+#top {
+  background-color :  #2d2578;
+  color:white;
+  padding: 3px 270px 15px;
+  border: 0px;
+  margin: 0px;
 }
 
-#top ul   {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	list-style-type: none;
+#top ul {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style-type: none;
 }
 
-#top ul li   {
-	display: inline;
-	margin: 0px 15px 0px 0px;
-	font-size: 13px;
-	font-family: tahoma, sans-serif;
+#top ul li {
+  display: inline;
+  margin: 0px 15px 0px 0px;
+  font-size: 13px;
+  font-family: tahoma, sans-serif;
 }
 
-#top a     { 
-	text-decoration: none;
-	color: white;
-}		
+#top a { 
+  text-decoration: none;
+  color: white;
+}       
 
-#top  a:hover   {
-	text-decoration: underline;
+#top  a:hover {
+ text-decoration: underline;
+}
+
+.nba { 
+  background: url("NBA.jpg"); 
+  position: absolute;
+  width: 28%;
+  height: 37%;
+  padding: 0px 0px 0px 0px; 
+  margin: 20px 0px 0px 270px;
+}
+
+.yellowheader { 
+  margin: 180px 0px 0px 20px;
+  font-family: arial;
+}  
+
+.nbatitle { 
+  color: #ffffff;
+  font-family: tahoma, sans-serif;
+  margin: -13px 0px 0px 3px;
+  padding: 0px 0px 0px 8px; 
+}         
+
+.nbanews {
+  color: #ffffff;
+  font-size: 15px;
+  margin: -10px 0px 10px 20px;
+}
+
+.yellowheader a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.yellowheader a:hover {
+  text-decoration: underline;
+}
+
+.nbatitle a {
+  text-decoration: none;
+  color: white;
+}
+
+.nbatitle a:hover {
+  text-decoration: underline;
 }
