@@ -44,38 +44,82 @@ body {
   margin: 20px 0px 0px 270px;
 }
 
-.yellowheader { 
+.yellowHeader { 
   margin: 180px 0px 0px 20px;
   font-family: arial;
 }  
 
-.nbatitle { 
+.yellowHeader a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.yellowHeader a:hover {
+  text-decoration: underline;
+}
+
+
+.nbaTitle { 
   color: #ffffff;
   font-family: tahoma, sans-serif;
   margin: -13px 0px 0px 3px;
   padding: 0px 0px 0px 8px; 
 }         
 
-.nbanews {
+.nbaTitle a {
+  text-decoration: none;
+  color: white;
+}
+
+.nbaTitle a:hover {
+  text-decoration: underline;
+}
+
+.nbaNews {
   color: #ffffff;
   font-size: 15px;
   margin: -10px 0px 10px 20px;
 }
 
-.yellowheader a {
-  color: yellow;
-  text-decoration: none;
+.mostImportantNews {
+  margin: 20px 30px 0px 710px;
+  width: 12%;
+  border: collapse;
 }
 
-.yellowheader a:hover {
+.mostImportantNews td {
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+  font-family: arial;
+}
+ 
+.mostImportantNews a {
+  text-decoration: none;
+  color: #03011a;
+}
+
+.mostImportantNews a:hover {
   text-decoration: underline;
 }
 
-.nbatitle a {
+#infoTableHeader {
+  font-size: 10px;
+  background-color: #fa4040;
+  color: white;
+  padding: 4px 0px 3px 8px;
+}
+
+#infoTableHeader a {
   text-decoration: none;
   color: white;
 }
 
-.nbatitle a:hover {
+#infoTableHeader a:hover {
   text-decoration: underline;
 }
+
+.bottomBorder {
+  border-bottom: 1px solid #ddd;
+}
+
+
