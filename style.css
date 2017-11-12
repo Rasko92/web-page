@@ -28,7 +28,7 @@ body {
 
 #top a { 
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }       
 
 #top  a:hover {
@@ -36,7 +36,7 @@ body {
 }
 
 .nba { 
-  background: url("NBA.jpg"); 
+  background: url("pictures/NBA.jpg"); 
   position: absolute;
   width: 28%;
   height: 37%;
@@ -50,14 +50,13 @@ body {
 }  
 
 .yellowHeader a {
-  color: yellow;
+  color: #f3d127;
   text-decoration: none;
 }
 
 .yellowHeader a:hover {
   text-decoration: underline;
 }
-
 
 .nbaTitle { 
   color: #ffffff;
@@ -68,7 +67,7 @@ body {
 
 .nbaTitle a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .nbaTitle a:hover {
@@ -105,7 +104,7 @@ body {
 #infoTableHeader {
   font-size: 10px;
   background-color: #fa4040;
-  color: white;
+  color: #ffffff;
   padding: 4px 0px 3px 8px;
 }
 
@@ -120,6 +119,58 @@ body {
 
 .bottomBorder {
   border-bottom: 1px solid #ddd;
+}
+
+#fourArticles {
+  position: absolute;
+  margin: 0px 0px 0px 257px;
+}
+
+#fourArticles td {
+  position: relative;
+  padding: 8px 8px 8px 10px;
+}
+
+.articlePicture {
+  position: relative;
+  width: 300px;
+  height: 160px;
+}
+
+.smallHeaders {
+  position: absolute;
+  top: 50px;
+  left: 25px; 
+  right: 260px;
+  color: #f3d127;
+  font-family: arial;
+}
+
+.smallHeaders a {
+  text-decoration: none;
+}
+
+.smallHeaders a:hover {
+  text-decoration: underline;
+}
+
+.smallText {
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  right: 60px;
+  font-size: 13px;
+  font-size: 16px;
+  font-family: tahoma, sans-serif;
+  color: #ffffff;
+}
+
+.smallText a {
+  text-decoration: none;
+}
+
+.smallText a:hover {
+  text-decoration: underline;
 }
 
 
