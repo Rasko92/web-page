@@ -135,6 +135,7 @@ body {
   position: relative;
   width: 300px;
   height: 160px;
+  padding: 0px 0px 10px 0px;
 }
 
 .smallHeaders {
@@ -159,7 +160,6 @@ body {
   top: 80px;
   left: 25px;
   right: 60px;
-  font-size: 13px;
   font-size: 16px;
   font-family: tahoma, sans-serif;
   color: #ffffff;
@@ -170,6 +170,59 @@ body {
 }
 
 .smallText a:hover {
+  text-decoration: underline;
+}
+
+#twelveArticles {
+  position: absolute;
+  top: 510px;
+  margin: 320px 0px 0px 265px;
+  padding: 5px 15px 0px 0px;
+  width: 90px;
+  height: 90px;
+}
+
+#twelveArticles td {
+  position: relative;
+  padding: 10px 19px 5px 0px;
+  font-size: 15px;
+  font-family: tahoma, sans-serif;
+}
+
+
+#twelveArticles a {
+  padding: 20px 0px 10px 0px;
+  text-decoration: none;
+  color: #222015;
+}
+
+#twelveArticles a:hover {
+  text-decoration: underline;
+}
+
+.twelveArticlePic {
+  position: relative;
+  width: 140px;
+  height: 100px;
+  margin-bottom: -10px;  
+}
+
+.twelveHeader {
+  position: absolute;
+  top: 70px;
+  left: 8px; 
+  right: 260px;
+  color: #f3d127;
+  font-family: arial;
+  font-size: 10px;
+  font-weight: 100px;
+}
+
+.twelveHeader a {
+  text-decoration: none;
+}
+
+.twelveHeader a:hover {
   text-decoration: underline;
 }
 
