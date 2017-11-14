@@ -35,54 +35,65 @@ body {
  text-decoration: underline;
 }
 
-.nba { 
-  background: url("pictures/NBA.jpg"); 
-  position: absolute;
-  width: 28%;
-  height: 37%;
+.mainArticle { 
+  position: relative;
+  width: 380px;
+  height: 300px;
   padding: 0px; 
   margin: 20px 0px 0px 270px;
 }
 
-.yellowHeader { 
+.mainArticleHeader {
+  position: relative;
+  top: -370px;
+  left: 265px;
   margin: 180px 0px 0px 20px;
   font-family: arial;
 }  
 
-.yellowHeader a {
-  color: #f3d127;
+.mainArticleHeader a {
   text-decoration: none;
+  color: #f3d127;
 }
 
-.yellowHeader a:hover {
+.mainArticleHeader a:hover {
   text-decoration: underline;
 }
 
-.nbaTitle { 
-  color: #ffffff;
+.mainArticleTitle {
+  position: absolute;
+  top: 250px;
+  left: 275px;
+  width: 250px; 
   font-family: tahoma, sans-serif;
-  margin: -13px 0px 0px 3px;
-  padding: 0px 0px 0px 8px; 
+  margin: 5px 0px 10px 3px;
+  padding: 0px 10px 0px 8px; 
 }         
 
-.nbaTitle a {
+.mainArticleTitle a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nbaTitle a:hover {
+.mainArticleTitle a:hover {
   text-decoration: underline;
 }
 
-.nbaNews {
+.mainArticleNews {
+  position: absolute;
+  top: 370px;
+  left: 270px;
+  width: 350px;
   color: #ffffff;
   font-size: 15px;
   margin: -10px 0px 10px 20px;
 }
 
 .mostImportantNews {
-  margin: 20px 30px 0px 710px;
-  width: 12%;
+  position: relative;
+  top: -515px;
+  margin: 20px 30px 0px 670px;
+  width: 14%;
   border: collapse;
 }
 
@@ -121,37 +132,38 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-#fourArticles {
+#mediumArticles {
   position: absolute;
-  margin: 0px 0px 0px 257px;
+  top: 430px;
+  margin: 10px 0px 0px 257px;
 }
 
-#fourArticles td {
+#mediumArticles td {
   position: relative;
   padding: 8px 8px 8px 10px;
 }
 
-.articlePicture {
+.medimArticleImg {
   position: relative;
   width: 300px;
   height: 160px;
   padding: 0px 0px 10px 0px;
 }
 
-.smallHeaders {
+.mediumArticleHeader {
   position: absolute;
   top: 50px;
   left: 25px; 
   right: 260px;
-  color: #f3d127;
   font-family: arial;
 }
 
-.smallHeaders a {
+.mediumArticleHeader a {
   text-decoration: none;
+  color: #f3d127;
 }
 
-.smallHeaders a:hover {
+.mediumArticleHeader a:hover {
   text-decoration: underline;
 }
 
@@ -162,67 +174,68 @@ body {
   right: 60px;
   font-size: 16px;
   font-family: tahoma, sans-serif;
-  color: #ffffff;
 }
 
 .smallText a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .smallText a:hover {
   text-decoration: underline;
 }
 
-#twelveArticles {
-  position: absolute;
-  top: 510px;
+#smallArticles {
+  position: relative;
+  top: -470px;
   margin: 320px 0px 0px 265px;
   padding: 5px 15px 0px 0px;
   width: 90px;
-  height: 90px;
+  height: 90px; 
 }
 
-#twelveArticles td {
+#smallArticles td {
   position: relative;
   padding: 10px 19px 5px 0px;
   font-size: 15px;
   font-family: tahoma, sans-serif;
 }
 
-
-#twelveArticles a {
-  padding: 20px 0px 10px 0px;
-  text-decoration: none;
+#smallArticles p  {
   color: #222015;
 }
 
-#twelveArticles a:hover {
+#smallArticles a  {
+  text-decoration: none;
+}
+
+#smallArticles a:hover  {
   text-decoration: underline;
 }
 
-.twelveArticlePic {
+.smallArticleImg {
   position: relative;
   width: 140px;
   height: 100px;
   margin-bottom: -10px;  
 }
 
-.twelveHeader {
+.smallArticleHeader {
   position: absolute;
   top: 70px;
   left: 8px; 
   right: 260px;
-  color: #f3d127;
   font-family: arial;
   font-size: 10px;
   font-weight: 100px;
 }
 
-.twelveHeader a {
+.smallArticleHeader a {
   text-decoration: none;
+  color: #f3d127;
 }
 
-.twelveHeader a:hover {
+.smallArticleHeader a:hover {
   text-decoration: underline;
 }
 
