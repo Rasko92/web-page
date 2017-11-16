@@ -132,13 +132,13 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-#mediumArticles {
+.mediumArticles {
   position: absolute;
   top: 430px;
   margin: 10px 0px 0px 257px;
 }
 
-#mediumArticles td {
+.mediumArticles td {
   position: relative;
   padding: 8px 8px 8px 10px;
 }
@@ -185,7 +185,7 @@ body {
   text-decoration: underline;
 }
 
-#smallArticles {
+.smallArticles {
   position: relative;
   top: -470px;
   margin: 320px 0px 0px 265px;
@@ -194,22 +194,22 @@ body {
   height: 90px; 
 }
 
-#smallArticles td {
+.smallArticles td {
   position: relative;
   padding: 10px 19px 5px 0px;
   font-size: 15px;
   font-family: tahoma, sans-serif;
 }
 
-#smallArticles p  {
+.smallArticles p  {
   color: #222015;
 }
 
-#smallArticles a  {
+.smallArticles a  {
   text-decoration: none;
 }
 
-#smallArticles a:hover  {
+.smallArticles a:hover  {
   text-decoration: underline;
 }
 
