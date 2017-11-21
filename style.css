@@ -35,6 +35,13 @@ body {
  text-decoration: underline;
 }
 
+.logo {
+  position: relative;
+  left: -10px;
+  width: 100px;
+  height: 60px;  
+}
+
 .mainArticle { 
   position: relative;
   width: 380px;
@@ -45,7 +52,7 @@ body {
 
 .mainArticleHeader {
   position: relative;
-  top: -370px;
+  top: -360px;
   left: 265px;
   margin: 180px 0px 0px 20px;
   font-family: arial;
@@ -62,7 +69,7 @@ body {
 
 .mainArticleTitle {
   position: absolute;
-  top: 250px;
+  top: 255px;
   left: 275px;
   width: 250px; 
   font-family: tahoma, sans-serif;
@@ -134,13 +141,13 @@ body {
 
 .mediumArticles {
   position: absolute;
-  top: 430px;
+  top: 420px;
   margin: 10px 0px 0px 257px;
 }
 
 .mediumArticles td {
   position: relative;
-  padding: 8px 8px 8px 10px;
+  padding: 5px 5px 5px 10px;
 }
 
 .medimArticleImg {
@@ -187,7 +194,7 @@ body {
 
 .smallArticles {
   position: relative;
-  top: -470px;
+  top: -475px;
   margin: 320px 0px 0px 265px;
   padding: 5px 15px 0px 0px;
   width: 90px;
@@ -238,5 +245,37 @@ body {
 .smallArticleHeader a:hover {
   text-decoration: underline;
 }
+
+.videoSection {
+  margin: 100px 0px 0px 267px;
+}
+
+.videoHeader {
+  width: 60px;
+  height: 16px;
+  padding: 5px 5px 5px 5px;
+  background-color: #2d2578;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+  font-size: 13px;   
+}
+
+.videoHeader a {
+  text-decoration: none;
+  color: #ffffff;  
+}
+
+.videoHeader a:hover {
+  text-decoration: underline;  
+}
+
+.bearVid { 
+  margin: -10px 0px 0px 0px;  
+  width: 625px;
+  height: 400px;  
+}
+
+
 
 
