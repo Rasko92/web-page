@@ -251,6 +251,7 @@ body {
 }
 
 .videoHeader {
+  position: relative; 
   width: 60px;
   height: 16px;
   padding: 5px 5px 5px 5px;
@@ -270,10 +271,33 @@ body {
   text-decoration: underline;  
 }
 
-.bearVid { 
-  margin: -10px 0px 0px 0px;  
-  width: 625px;
-  height: 400px;  
+#videoLink {
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  margin: 7px 0px 0px 10px;
+  padding: 5px 5px 0px 10px; 
+  background: rgb(18, 17, 22, 0.8);
+  z-index: 1;
+  border-radius: 5px;
+  font-size: 17px; 
+}
+
+#videoLink a {
+  text-decoration: none;  
+  color: #ffffff;   
+}
+
+#videoLink a:hover {
+  text-decoration: underline;   
+}
+
+.bearVid {
+  position: relative;
+  z-index: 0; 
+  margin: -5px 0px 0px -33px;  
+  width: 600px;
+  height: 400px; 
 }
 
 
