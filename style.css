@@ -35,6 +35,13 @@ body {
  text-decoration: underline;
 }
 
+.logo {
+  position: relative;
+  left: -10px;
+  width: 100px;
+  height: 60px;  
+}
+
 .mainArticle { 
   position: relative;
   width: 380px;
@@ -45,7 +52,7 @@ body {
 
 .mainArticleHeader {
   position: relative;
-  top: -370px;
+  top: -360px;
   left: 265px;
   margin: 180px 0px 0px 20px;
   font-family: arial;
@@ -62,7 +69,7 @@ body {
 
 .mainArticleTitle {
   position: absolute;
-  top: 250px;
+  top: 255px;
   left: 275px;
   width: 250px; 
   font-family: tahoma, sans-serif;
@@ -134,13 +141,13 @@ body {
 
 .mediumArticles {
   position: absolute;
-  top: 430px;
+  top: 420px;
   margin: 10px 0px 0px 257px;
 }
 
 .mediumArticles td {
   position: relative;
-  padding: 8px 8px 8px 10px;
+  padding: 5px 5px 5px 10px;
 }
 
 .medimArticleImg {
@@ -186,8 +193,8 @@ body {
 }
 
 .smallArticles {
-  position: relative;
-  top: -470px;
+  position: absolute;
+  top: 470px;
   margin: 320px 0px 0px 265px;
   padding: 5px 15px 0px 0px;
   width: 90px;
@@ -238,5 +245,147 @@ body {
 .smallArticleHeader a:hover {
   text-decoration: underline;
 }
+
+.videoSection {
+  position: absolute;
+  top: 1330px;
+  margin: 100px 0px 0px 267px;
+}
+
+.videoHeader {
+  position: relative; 
+  width: 60px;
+  height: 16px;
+  padding: 5px 5px 5px 5px;
+  background-color: #2d2578;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial;
+  font-size: 13px;   
+}
+
+.videoHeader a {
+  text-decoration: none;
+  color: #ffffff;  
+}
+
+.videoHeader a:hover {
+  text-decoration: underline;  
+}
+
+#videoLink {
+  position: absolute;
+  width: 145px;
+  height: 30px;
+  margin: 7px 0px 0px 10px;
+  padding: 5px 5px 0px 10px; 
+  background: rgb(18, 17, 22, 0.8);
+  z-index: 1;
+  border-radius: 5px;
+  font-size: 17px; 
+}
+
+#videoLink a {
+  text-decoration: none;  
+  color: #ffffff;   
+}
+
+#videoLink a:hover {
+  text-decoration: underline;   
+}
+
+.bearVid {
+  position: relative;
+  z-index: 0; 
+  margin: -5px 0px 0px -1px;  
+  width: 622px;
+  height: 400px;
+  object-fit: initial; 
+}
+
+#trending {
+  position: relative;
+  top: 1100px;
+  margin: 0px 0px 0px 265px;
+}
+
+.trendingSection ul {
+  width: 463px;  
+  list-style-type: none;
+  margin: 0px;    
+  padding: 0px 10px 10px 160px;
+  border-bottom: 4px solid #ddd;  
+  font-size: 14px; 
+  
+}
+
+.trendingSection li {
+   display: inline;
+   padding: 0px 10px 10px 0px;
+}
+
+.trendingSection a {
+  text-decoration: none;
+  color: #2d2578;
+}
+
+.trendingSection a:hover {
+  text-decoration: underline;  
+}
+
+.infoNum {
+  padding: 20px 10px 20px 0px;
+  color: #8b8a92;  
+}
+
+.infoTable  {
+  margin: 13px 0px 0px 0px;  
+  width: 300px;
+}
+
+.infoTable td {
+  font-size: 14px;
+}
+
+.infoTable a {
+  text-decoration: none;
+  color: #222015;  
+}
+
+.infoTable a:hover {
+  text-decoration: underline;  
+}
+
+.sportNum {
+  padding: 20px 10px 20px 0px;
+  color: #8b8a92;  
+}
+
+.sportTable  {
+  margin: -382px 0px 0px 320px;  
+  width: 300px;
+}
+
+.sportTable td {
+  font-size: 14px;
+}
+
+.sportTable a {
+  text-decoration: none;
+  color: #222015;  
+}
+
+.sportTable a:hover {
+  text-decoration: underline;  
+}
+
+.sectionHeader a {
+  color: #f93b3b;
+  font-family: arial;
+  font-size: 13px;  
+}
+
+
+
 
 
